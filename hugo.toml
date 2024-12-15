@@ -1,4 +1,6 @@
 baseURL = 'https://drew.x64.onl/'
 languageCode = 'en-us'
-title = "Drew's Space"
 theme = 'drew.x64.onl'
+
+title = "Drew's Space"
+description = "Aloha World! I'm Drew!"
