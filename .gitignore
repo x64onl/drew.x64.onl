@@ -1,35 +1,28 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,hugo,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,hugo,visualstudiocode
-
-### Hugo ###
-# Generated files by hugo
+# Hugo
+## Generated files by hugo
 /public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
-
-# Executable may be added to repository
+## Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
-
-# Temporary lock file while building
+## Temporary lock file while building
 /.hugo_build.lock
 
-### macOS ###
-# General
+# macOS
+## General
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
+## Icon must end with two \r
 Icon
 
 
-# Thumbnails
+## Thumbnails
 ._*
-
-# Files that might appear in the root of a volume
+## Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -37,39 +30,28 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
+## Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
-
-### macOS Patch ###
-# iCloud generated files
+## iCloud generated files
 *.icloud
 
-### VisualStudioCode ###
+# VisualStudio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
+## Built Visual Studio Code Extensions
 *.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
+## Local History for Visual Studio Code
+.history/
 .history
 .ionide
-
-# End of https://www.toptal.com/developers/gitignore/api/macos,hugo,visualstudiocode
-
-# vscode frontmatter extension -- D. 2024-12-14
+## Frontmatter Extension
 .frontmatter/
 frontmatter.json
