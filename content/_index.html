@@ -1,16 +1,19 @@
 <style>
 	header, footer {
+		height: 0;
+		width: 0;
 		display: none;
+		visibility: hidden;
 	}
 
 	body {
-		background: url(./images/IMG_1357.webp) no-repeat fixed;
-		background-color: rgba(0, 0, 0, 0.8);
-  		background-blend-mode: overlay;
+		background: var(--background-color) url(./images/IMG_1357.webp) no-repeat fixed;
+		background-blend-mode: soft-light;
 		background-size: cover;
 	}
 
 	.page-footer {
+		font-size: 0.9rem;
 		margin: 3rem 0;
 		color: var(--text-color-dark);
 	}
@@ -42,9 +45,9 @@
 <div class="page center">
 	<!-- profile -->
 	<div class="profile">
-		<img class="profile-image color-8" alt="Drew's Profile Image" src="./images/IMG_2604.webp" height="125px" width="125px"/>
+		<img class="profile-image color-8" alt="Drew's Profile Image" src="./images/IMG_2604.webp"/>
 		<h2 class="profile-title">Aloha 🌎 World</h2>
-		<p class="profile-description">Im Drew</p>
+		<p class="profile-description">Im Drew: Jack of Cyber</p>
 		<div class="hidden scramble">Jack of Cyber</div>
 	</div>
 	
@@ -77,5 +80,7 @@
 	</div>
 
 	<!-- page footer -->
-	<p class="page-footer">Made With <span class="accent">&hearts;</span> CO, USA</p>
+	<div class="page-footer">
+		<p>Made With <span class="accent">&hearts;</span> CO, USA</p>
+	</div>
 </div>

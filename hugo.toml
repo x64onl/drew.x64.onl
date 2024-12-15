@@ -1,6 +1,12 @@
 baseURL = 'https://drew.x64.onl/'
 languageCode = 'en-us'
+title = "Drew's Space"
 theme = 'drew.x64.onl'
 
-title = "Drew's Space"
-description = "Aloha World! I'm Drew!"
+[params]
+  description = "Aloha World! I'm Drew:, Jack of Cyber."
+  keywords = 'Drew, Security Engineer, Security Architect, Jack of Cyber, Cybersecurity, Information Security'
+
+  [params.author]
+    email = "drew@x64.onl"
+    name = "Drew"
