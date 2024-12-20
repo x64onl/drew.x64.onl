@@ -4,8 +4,8 @@ title = "Drew's Space"
 theme = 'drew.x64.onl'
 
 [params]
-  description = "Aloha World! I'm Drew:, Jack of Cyber."
-  keywords = 'Drew, Security Engineer, Security Architect, Jack of Cyber, Cybersecurity, Information Security'
+  description = "Aloha World! I'm Drew: Jack of Cyber."
+  keywords = "Drew, Jack of Cyber, Security Architect, Security Engineer, Cybersecurity, Information Security, Profolio, Blog"
 
   [params.author]
     email = "drew@x64.onl"

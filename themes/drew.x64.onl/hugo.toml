@@ -4,16 +4,11 @@ title = 'Hello World'
 theme = 'drew.x64.onl'
 
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
-[[menus.main]]
 name = 'Posts'
 pageRef = '/posts'
-weight = 20
+weight = 10
 
 [[menus.main]]
 name = 'Tags'
 pageRef = '/tags'
-weight = 30
+weight = 20
