@@ -5,6 +5,7 @@
 <meta name="author" content="{{ site.Params.author.name }} <{{ site.Params.author.email }}>">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s on %s" .Title site.Title }}{{ end }}</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="82f57bba-ce4d-4db7-bd04-b8700b73b7f1"></script>
