@@ -280,24 +280,6 @@ svg path {
   fill: var(--text-color-bright);
 }
 
-/* animations */
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-.float {
-  animation: float 7s ease-in-out infinite;
-}
-
 /* utilities */
 
 .accent {
@@ -310,7 +292,6 @@ svg path {
 
 .hidden {
   display: none;
-  visibility: hidden;
 }
 
 /* page */
@@ -407,19 +388,19 @@ svg path {
   transition: all .4s ease-in-out;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .button:hover {
   cursor: pointer;
   color: var(--text-color-bright);
   border: 1px solid var(--text-color-bright);
-  background-position: 100% 0;
+  /*background-position: 100% 0;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.button:focus {
-  outline: none;
+  transition: all .4s ease-in-out;*/
 }
 
 .color-1 {

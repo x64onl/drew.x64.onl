@@ -1,0 +1,4 @@
+baseURL = 'http://127.0.0.1'
+languageCode = 'en-us'
+title = 'Hello World'
+theme = 'x64'

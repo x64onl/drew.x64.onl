@@ -1,15 +1,18 @@
 <style>
 	header, footer {
-		height: 0;
-		width: 0;
 		display: none;
-		visibility: hidden;
 	}
 
 	body {
 		background: var(--background-color) url(./images/IMG_1357.webp) no-repeat fixed;
 		background-blend-mode: soft-light;
 		background-size: cover;
+	}
+
+	#toggle-bio:checked + label + .bio-content {
+		display: block !important;
+		max-width: 400px;
+		margin: 0 auto;
 	}
 
 	.profile-image {
@@ -78,13 +81,18 @@
 	</div>
 
 	<div class="button-group">
-		<!-- todo: bio / blurb -->
+		<!-- about me
+		<input type="checkbox" id="toggle-bio" class="hidden">
+		<label for="toggle-bio" class="button color-9 animate__animated animate__bounceIn">About Me</label>
+		<div class="bio-content hidden">
+			<p>Hey there! I'm Drew, a Cybersecurity Engineer from Colorado, USA. I'm most passionate about technology where security, privacy, and philosophy intersect. I enjoy learning new things, solving complex problems, and helping others. When not working I find myself hiking outdoors, photographing nature, and loosing myself in books, movies, and music that inspire me. Im a firm believer in technology's power to improve lives and am committed to using it to make a meaningful, positive impact on the world.</p>
+		</div> -->
 		<!-- todo: resume / cv-->
+		<!-- todo: projects / github -->
 		<!-- todo: blog / recent post(s) -->
-		<!-- todo: projects / github widget -->
 		
 		<!-- portfolio -->
-		<a class="button color-5" href="https://x64.onl/author/drew" title="See my work on X64.ONL" target="_blank">Portfolio</a>
+		<a class="button color-5 animate__animated animate__bounceIn" href="https://x64.onl/author/drew" title="See my work on X64.ONL" target="_blank">Portfolio</a>
 		
 		<!-- credentials -->
 		<a class="button color-8" href="https://www.credly.com/users/x64" title="Verify my credentials on Credly" target="_blank">Credentials</a>
@@ -98,7 +106,7 @@
 		<p>Made With <span class="accent">&hearts;</span> CO, USA</p>
 		
 		<!-- support -->
-		<p><a class="" href="https://github.com/sponsors/x64onl?o=esb" title="Sponsor Me on GitHub" target="_blank"><img src="https://img.shields.io/github/sponsors/x64onl" alt="Sponsor Me on GitHub"></a></p>
+		<p><a class="" href="https://github.com/sponsors/x64onl" title="Sponsor Me on GitHub" target="_blank"><img src="https://img.shields.io/github/sponsors/x64onl" alt="Sponsor Me on GitHub"></a></p>
 		<!-- fork -->
 		<p><a href="https://github.com/x64onl/drew.x64.onl" title="Fork This Site" target="_blank"><i class='bx bx-git-repo-forked'></i></a></p>
 	</div>
