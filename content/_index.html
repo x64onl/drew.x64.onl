@@ -9,12 +9,6 @@
 		background-size: cover;
 	}
 
-	#toggle-bio:checked + label + .bio-content {
-		display: block !important;
-		max-width: 400px;
-		margin: 0 auto;
-	}
-
 	.profile-image {
 		border-radius: 50%;
 		border: 3px solid var(--text-color);
@@ -23,6 +17,14 @@
 	.profile-title {
 		margin: 1rem 0 0 0;
 		font-size: 2em;
+	}
+
+	#earth {
+		display: inline-block;
+		background: url(./images/earth.gif) no-repeat center;
+		margin: 0 .25rem;
+		height: 32px;
+		width: 32px;
 	}
 
 	.profile-description {
@@ -54,10 +56,10 @@
 <div class="page center">
 	<div class="profile">
 		<!-- profile image -->
-		<img class="profile-image color-8" alt="Drew's Profile Image" src="./images/IMG_2604.webp"/>
+		<img class="profile-image color-8" alt="Drew's Profile Image" src="images/IMG_2604.webp"/>
 
 		<!-- profile title -->
-		<h2 class="profile-title">Aloha 🌎 World</h2>
+		<h2 class="profile-title">Aloha <span id="earth"></span> World</h2>
 		
 		<!-- profile description -->
 		<p class="profile-description">Im Drew: Jack of Cyber</p>
@@ -81,16 +83,10 @@
 	</div>
 
 	<div class="button-group">
-		<!-- about me
-		<input type="checkbox" id="toggle-bio" class="hidden">
-		<label for="toggle-bio" class="button color-9 animate__animated animate__bounceIn">About Me</label>
-		<div class="bio-content hidden">
-			<p>Hey there! I'm Drew, a Cybersecurity Engineer from Colorado, USA. I'm most passionate about technology where security, privacy, and philosophy intersect. I enjoy learning new things, solving complex problems, and helping others. When not working I find myself hiking outdoors, photographing nature, and loosing myself in books, movies, and music that inspire me. Im a firm believer in technology's power to improve lives and am committed to using it to make a meaningful, positive impact on the world.</p>
-		</div> -->
+		<!-- about me -->
 		<!-- todo: resume / cv-->
 		<!-- todo: projects / github -->
 		<!-- todo: blog / recent post(s) -->
-		
 		<!-- portfolio -->
 		<a class="button color-5 animate__animated animate__bounceIn" href="https://x64.onl/author/drew" title="See my work on X64.ONL" target="_blank">Portfolio</a>
 		
@@ -105,7 +101,7 @@
 		<!-- footer -->
 		<p>Made With <span class="accent">&hearts;</span> CO, USA</p>
 		
-		<!-- support -->
+		<!-- sponsors -->
 		<p><a class="" href="https://github.com/sponsors/x64onl" title="Sponsor Me on GitHub" target="_blank"><img src="https://img.shields.io/github/sponsors/x64onl" alt="Sponsor Me on GitHub"></a></p>
 		<!-- fork -->
 		<p><a href="https://github.com/x64onl/drew.x64.onl" title="Fork This Site" target="_blank"><i class='bx bx-git-repo-forked'></i></a></p>
