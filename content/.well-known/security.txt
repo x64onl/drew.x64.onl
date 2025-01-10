@@ -1,5 +1,0 @@
-Canonical: https://x64.onl/.well-known/security.txt
-Contact: mailto:drew@x64.onl
-Encryption: https://x64.onl/security
-Expires: 2030-01-01T00:00:00Z
-Preferred-Languages: en
