@@ -1,6 +1,6 @@
 baseURL = 'https://drew.x64.onl/'
 languageCode = 'en-us'
-title = "Aloha 🌎 World"
+title = "Aloha World"
 theme = 'x64'
 
 [params]
