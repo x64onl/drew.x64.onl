@@ -1,0 +1,12 @@
+baseURL: https://drew.x64.onl
+languageCode: en-us
+title: Drew's Lab
+theme: x64
+params:
+  description: Hi, I'm Drew. You've reached my webpage! I'm not in right now. Please leave a comment with your name, email, and brief message after the beep. *beep*
+  keywords: Drew, Cybersecurity, Privacy, Digital Rights
+  author:
+    email: drew@x64.onl
+    name: Drew
+    url: https://drew.x64.onl
+rssLimit: 25
