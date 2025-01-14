@@ -1,59 +1,64 @@
 <style>
+	body {
+      background: var(--background-color) url(./images/IMG_1357.webp) no-repeat fixed;
+      background-blend-mode: soft-light;
+      background-size: cover;
+    }
 	header, footer {
 		display: none;
 	}
-	body {
-		background: var(--background-color) url(./images/IMG_1357.webp) no-repeat fixed;
-		background-blend-mode: soft-light;
-		background-size: cover;
-	}
-	.profile-image {
-		border-radius: 50%;
-		border: 3px solid var(--text-color);
-	}
+	.avatar {
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      background: var(--text-color);
+      padding: 3px;
+    }
 	.profile-title {
-		margin: 1rem 0 0 0;
-		font-size: 2em;
-	}
+      margin: 1rem 0 0 0;
+      font-size: 2em;
+    }
 	#earth {
-		display: inline-block;
-		background: url(./images/earth.gif) no-repeat center;
-		margin: 0 .25rem;
-		height: 32px;
-		width: 32px;
-		border-radius: 50%;
-		border: 1px solid #00a1fe99;
-		filter: drop-shadow(0 0 0.25rem #00a1feaa);
-	}
+      display: inline-block;
+      background: url(./images/earth.gif) no-repeat center;
+      margin: 0 .25rem;
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      border: 1px solid #00a1fe99;
+      filter: drop-shadow(0 0 0.25rem #00a1feaa);
+    }
 	.profile-description {
-		margin: 0 auto 2rem auto;
-		font-style: italic;
-	}
+      margin: 0.25rem auto;
+      font-style: italic;
+    }
 	.social-links {
-		margin: .9rem 0;
-	}
+      margin: .9rem 0;
+    }
 	.social-links i {
-		font-size: 2rem;
-		margin: 0 0.5rem 0 0.5rem;
-	}
+      font-size: 2rem;
+      margin: 0 0.5rem 0 0.5rem;
+    }
 	.page-footer {
-		font-size: 0.9rem;
-		margin: 3rem 0;
-		color: var(--text-color-dark);
-	}
+      font-size: 0.9rem;
+      margin: 3rem auto;
+      color: var(--text-color-dark);
+    }
 	.page-footer i {
-		font-size: 1.25rem;
-		margin-left: 1rem;
-	}
+      font-size: 1.25rem;
+      margin-left: 1rem;
+    }
 </style>
-<div class="page center">
+<div id="splash-page" class="center">
 	<div class="profile">
 		<!-- profile image -->
-		<img width="125" height="125" class="profile-image color-8" alt="Drew's Profile Image" src="images/IMG_2604.webp"/>
+		<div class="avatar-wrap">
+        	<img class="avatar" src="images/IMG_2604.webp" loading="lazy" alt="Drew" width="125" height="125">
+        </div>
 		<!-- profile title -->
-		<h2 class="profile-title">Aloha <span id="earth"></span> World</h2>
+		<h2 class="profile-title">Aloha <span id="earth"></span alt="Planet Earth"> World</h2>
 		<!-- profile description -->
-		<p class="profile-description">Im Drew: Jack of Cyber</p>
+		<p class="profile-description">Drew's Lab</p>
 	</div>
 	<div class="social-links">
 		<!-- linkedin -->
@@ -74,6 +79,8 @@
 		<!-- todo: blog / recent post(s) -->
 		<!-- portfolio -->
 		<a class="button color-5 animate__animated animate__bounceIn" href="https://x64.onl/author/drew" title="See my work on X64.ONL" target="_blank">Portfolio</a>
+		<!-- resume -->
+		<a class="button color-8" href="/resume" title="Resume">Resume</a>
 		<!-- credentials -->
 		<a class="button color-8" href="https://www.credly.com/users/x64" title="Verify my credentials on Credly" target="_blank">Credentials</a>
 		<!-- bookshelf -->
