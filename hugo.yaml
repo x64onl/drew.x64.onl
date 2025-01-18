@@ -1,12 +1,15 @@
-baseURL: https://drew.x64.onl
-languageCode: en-us
-title: Drew's Lab
-theme: x64
+baseURL: "https://drew.x64.onl"
+languageCode: "en-us"
+title: >
+  Drew's Lab
+theme: "x64"
 params:
-  description: Hi, I'm Drew. You've reached my webpage! I'm not in right now. Please leave a comment with your name, email, and brief message after the beep. *beep*
-  keywords: Drew, Cybersecurity, Privacy, Digital Rights
+  description: >
+    Aloha World! I'm Drew, a cyber engineer with a passion for security, privacy, and sentient rights. I love collaborating with cybercitizens across academic, public, and private sectors to create positive change for the next generation. I often contribute my knowledge and insights to the cyber community through blogs, publications, and other public efforts like https://x64.onl.
+  keywords: >
+    Drew, Personal, Security, Privacy, Sentient Rights, x64.onl, Cybersecurity, Information Security, Securitry Researcher, Security Architect, Security Engineer, Security Specialist, Security Consultant, Security Analyst
   author:
-    email: drew@x64.onl
-    name: Drew
-    url: https://drew.x64.onl
+    email: "drew@x64.onl"
+    name: "Drew"
+    url: "https://drew.x64.onl"
 rssLimit: 25
