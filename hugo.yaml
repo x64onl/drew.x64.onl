@@ -1,4 +1,7 @@
 baseURL: "https://drew.x64.onl"
+disableKinds:
+- taxonomy
+- term
 languageCode: "en-us"
 title: >
   Drew's Lab
