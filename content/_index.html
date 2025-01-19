@@ -1,4 +1,22 @@
 <style>
+	@keyframes floating {
+		0% {
+			transform: translate3d(0, 0, 0);
+		}
+
+		45% {
+			transform: translate3d(0, -10%, 0);
+		}
+
+		55% {
+			transform: translate3d(0, -10%, 0);
+		}
+
+		100% {
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
 	body {
       background: var(--background-color) url(./images/IMG_1357.webp) no-repeat fixed;
       background-blend-mode: soft-light;
@@ -18,6 +36,7 @@
       border-radius: 50%;
       border: 1px solid #00a1fe99;
       filter: drop-shadow(0 0 0.25rem #00a1feaa);
+	  animation: floating 3s ease-in-out infinite;
     }
 
 	.avatar {
