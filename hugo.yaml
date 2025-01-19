@@ -3,16 +3,16 @@ disableKinds:
 - taxonomy
 - term
 languageCode: "en-us"
-title: >
-  Drew's Lab
-theme: "x64"
 params:
-  description: >
-    Aloha World! I'm Drew, a cyber engineer with a passion for security, privacy, and sentient rights. I love collaborating with cybercitizens across academic, public, and private sectors to create positive change for the next generation.
-  keywords: >
-    Drew, Personal, Security, Privacy, Sentient Rights, x64.onl, Cybersecurity, Information Security, Securitry Researcher, Security Architect, Security Engineer, Security Specialist, Security Consultant, Security Analyst
   author:
     email: "drew@x64.onl"
     name: "Drew"
     url: "https://drew.x64.onl"
+  description: >
+    Aloha World! I'm Drew, a cyber engineer with a passion for security, privacy, and sentient rights. I love collaborating with cybercitizens across academic, public, and private sectors to create positive change for the next generation.
+  keywords: >
+    Drew, Personal, Security, Privacy, Sentient Rights, x64.onl, Cybersecurity, Information Security, Securitry Researcher, Security Architect, Security Engineer, Security Specialist, Security Consultant, Security Analyst
 rssLimit: 25
+title: >
+  Drew's Laboratory
+theme: "x64"

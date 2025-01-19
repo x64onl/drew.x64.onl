@@ -4,20 +4,11 @@
       background-blend-mode: soft-light;
       background-size: cover;
     }
+
 	header, footer {
 		display: none;
 	}
-	.avatar {
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: var(--text-color);
-      padding: 3px;
-    }
-	.profile-title {
-      margin: 1rem 0 0 0;
-      font-size: 2em;
-    }
+
 	#earth {
       display: inline-block;
       background: url(./images/earth.gif) no-repeat center;
@@ -28,69 +19,99 @@
       border: 1px solid #00a1fe99;
       filter: drop-shadow(0 0 0.25rem #00a1feaa);
     }
+
+	.avatar {
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      background: var(--text-color);
+      padding: 3px;
+    }
+
 	.profile-description {
       margin: 0.25rem auto;
       font-style: italic;
     }
+
 	.social-links {
       margin: .9rem 0;
     }
+
 	.social-links i {
       font-size: 2rem;
       margin: 0 0.5rem 0 0.5rem;
     }
+
 	.page-footer {
       font-size: 0.9rem;
       margin: 3rem auto;
       color: var(--text-color-dark);
     }
+
 	.page-footer i {
       font-size: 1.25rem;
       margin-left: 1rem;
     }
+
+	.profile-title {
+      margin: 1rem 0 0 0;
+      font-size: 2em;
+    }
 </style>
+
 <div id="splash-page" class="center">
 	<div class="profile">
+
 		<!-- profile image -->
 		<div class="avatar-wrap">
         	<img class="avatar" src="images/IMG_2604.webp" loading="lazy" alt="Drew" width="125" height="125">
         </div>
+
 		<!-- profile title -->
 		<h2 class="profile-title">Aloha<span id="earth"></span alt="Planet Earth">World</h2>
+		
 		<!-- profile description -->
-		<p class="profile-description">Drew's Lab</p>
+		<p class="profile-description">Welcome to my lab!</p>
 	</div>
+
 	<div class="social-links">
 		<!-- linkedin -->
 		<a href="https://www.linkedin.com/in/x64" title="Follow me on LinkedIn" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+		
 		<!-- github -->
 		<a href="https://github.com/x64onl" title="Follow me on Github" target="_blank"><i class='bx bxl-github'></i></a>
+		
 		<!-- mastodon -->
 		<a href="https://mas.x64.onl/@drew" title="Follow me on Mastodon" target="_blank"><i class='bx bxl-mastodon'></i></a>
+		
 		<!-- instagram -->
 		<a href="https://www.instagram.com/x64.onl" title="Follow me on Instagram" target="_blank"><i class='bx bxl-instagram'></i></a>
+		
 		<!-- email -->
 		<a href="mailto:drew@x64.onl" title="Send me an email"><i class='bx bx-mail-send'></i></a>
 	</div>
+	
 	<div class="button-group">
-		<!-- about me -->
-		<!-- todo: resume / cv-->
-		<!-- todo: projects / github -->
-		<!-- todo: blog / recent post(s) -->
 		<!-- portfolio -->
 		<a class="button color-5 animate__animated animate__bounceIn" href="https://x64.onl/author/drew" title="See my work on X64.ONL" target="_blank">Portfolio</a>
+		
 		<!-- resume -->
 		<a class="button color-8" href="/resume/" title="Resume">Resume</a>
+		
 		<!-- credentials -->
 		<a class="button color-8" href="https://www.credly.com/users/x64" title="Verify my credentials on Credly" target="_blank">Credentials</a>
+		
 		<!-- bookshelf -->
 		<a class="button color-8" href="https://www.goodreads.com/review/list/81903126-drew?shelf=favorites" title="Check out my bookshelf on Goodreads." target="_blank">Bookshelf</a>
 	</div>
+	
 	<div class="page-footer">
 		<!-- footer -->
 		<p>Made With <span class="accent">&hearts;</span> CO, USA</p>
+		
 		<!-- sponsors -->
 		<p><a class="" href="https://github.com/sponsors/x64onl" title="Sponsor Me on GitHub" target="_blank"><img width="76" height="20" src="https://img.shields.io/github/sponsors/x64onl" alt="Sponsor Me on GitHub"></a></p>
+		
 		<!-- fork -->
 		<p><a href="https://github.com/x64onl/drew.x64.onl" title="Fork This Site" target="_blank"><i class='bx bx-git-repo-forked'></i></a></p>
 	</div>
