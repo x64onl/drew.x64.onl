@@ -99,7 +99,8 @@ td, tr {
   display: block;
   padding: 1rem 0;
   margin: 1rem auto;
-  max-width: 50%;
+  width: 50%;
+  min-width: 250px;
   border-radius: .5rem;
   background-size: 300% 100%;
 }
