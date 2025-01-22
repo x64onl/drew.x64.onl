@@ -19,6 +19,11 @@ I'm Drew, a US cyber engineer with a passion for security, privacy, and sentient
 - [Bookshelf](https://www.goodreads.com/review/list/81903126-drew?shelf=favorites)
 - [Get in touch](mailto:drew@x64.onl?subject=Hello)
 
+### Thank You
+- [Inter Font](https://rsms.me/inter/)
+- [Github Pages](https://pages.github.com)
+- [Remix Icon](https://remixicon.com)
+
 ---
 
 Made With &hearts; CO, USA
