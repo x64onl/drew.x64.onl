@@ -1,26 +1,26 @@
-# Drew's Space
+# Drew's Laboratory
+![Just a dude in a hat, standing in front of a massive rock, looking not so very excited to have his picture taken.](https://drew.x64.onl/images/IMG_2604.webp)
 
-![Drew's Profile Image](https://drew.x64.onl/images/IMG_2604.webp)
+## Aloha 🌎 World
+***Welcome to my lab!***
 
-Aloha 🌎 World
-
-I'm Drew: Jack of Cyber
+I'm Drew, a US cyber engineer with a passion for security, privacy, and sentient rights. I spend most of my online time collaborating with cyber citizens across academia, corporate, and government domains. Occasionally, I contribute my thoughts and insights to the community through social media, articles, and  publications like [X64.ONL](https://x64.onl).
 
 ### Socials
-
-[Linkedin](https://www.linkedin.com/in/x64)
-| [GitHub](https://github.com/x64onl)
-| [Mastodon](https://mas.x64.onl/@drew)
-| [Instagram](https://www.instagram.com/x64.onl)
-| [Signal](https://signal.me/#eu/aUtztjxDrrgw3F62pJxUspUnWBrwTsCDGZyBmtXwICZ4vfW4w4xGmLvZrZ4aR9ZG)
-| [Email](mailto:drew@x64.onl)
+- [LinkedIn](https://www.linkedin.com/in/x64)
+- [Github](https://github.com/x64onl)
+- [Mastodon](https://mas.x64.onl/@drew)
+- [Instagram](https://www.instagram.com/x64.onl)
 
 ### Links
-
-[My Work](https://x64.onl/author/drew)
-| [Credentials](https://www.credly.com/users/x64)
-| [Bookshelf](https://www.goodreads.com/review/list/81903126-drew?shelf=favorites)
+- [Portfolio](https://x64.onl/author/drew/)
+- [Resume](https://drew.x64.onl/resume/)
+- [Credentials](https://www.credly.com/users/x64)
+- [Bookshelf](https://www.goodreads.com/review/list/81903126-drew?shelf=favorites)
+- [Get in touch](mailto:drew@x64.onl?subject=Hello)
 
 ---
-Made With ♥ CO, USA
-[Fork This Site](https://github.com/x64onl/drew.x64.onl)
+
+Made With &hearts; CO, USA
+
+![GitHub Sponsors](https://img.shields.io/github/sponsors/x64onl)
