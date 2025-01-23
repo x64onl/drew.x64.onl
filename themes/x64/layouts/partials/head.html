@@ -16,3 +16,4 @@
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="82f57bba-ce4d-4db7-bd04-b8700b73b7f1"></script>
+<script>document.addEventListener("click",function(t){for(var e=t.target;e&&(void 0===e.tagName||"a"!=e.tagName.toLowerCase()||!e.href);)e=e.parentNode;e&&e.href&&e.host&&e.host!==location.host&&(umami.track("Outbound Link",{link:e.href}),(!e.target||e.target.match(/^_(self|parent|top)$/i))&&(setTimeout(function(){location.href=e.href},150),t.preventDefault()))});</script>
