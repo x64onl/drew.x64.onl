@@ -12,8 +12,8 @@
 <meta name="author" content="{{ site.Params.author.name }} <{{ site.Params.author.email }}>">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>">
 {{ with .OutputFormats.Get "rss" -}}{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}{{ end }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.0/inter.css" integrity="sha512-hijzqbP8sLpfqc1R7Sn4uta4OW5x4KQ5jBY3gPgxOHVZnDX/xzfgMLKZye+qM+kIGjE8YAUeeKWcnwiTx3kK7g==" crossorigin="anonymous" referrerpolicy="no-referrer" / >
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="82f57bba-ce4d-4db7-bd04-b8700b73b7f1"></script>
-<script>document.addEventListener("click",function(t){for(var e=t.target;e&&(void 0===e.tagName||"a"!=e.tagName.toLowerCase()||!e.href);)e=e.parentNode;e&&e.href&&e.host&&e.host!==location.host&&(umami.track("Outbound Link",{link:e.href}),(!e.target||e.target.match(/^_(self|parent|top)$/i))&&(setTimeout(function(){location.href=e.href},150),t.preventDefault()))});</script>
