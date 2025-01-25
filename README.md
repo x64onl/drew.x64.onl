@@ -26,6 +26,6 @@ I'm Drew, a US cyber engineer with a passion for security, privacy, and sentient
 
 ---
 
-Made With &hearts; CO, USA
+Made with &hearts; in CO, USA
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/x64onl)

@@ -14,6 +14,7 @@
 {{ with .OutputFormats.Get "rss" -}}{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}{{ end }}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
-<link rel="preconnect" href="https://rsms.me/">
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="82f57bba-ce4d-4db7-bd04-b8700b73b7f1"></script>
