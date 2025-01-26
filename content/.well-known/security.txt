@@ -1,0 +1,5 @@
+Canonical: https://x64.onl/.well-known/security.txt
+Contact: mailto:security@x64.onl
+Expires: 2030-01-01T12:00:00Z
+Policy: https://x64.onl/security
+Preferred-Languages: en
