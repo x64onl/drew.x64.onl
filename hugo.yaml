@@ -9,9 +9,8 @@ params:
     name: "Drew"
     url: "https://drew.x64.onl"
   description: >
-    I’m Drew, a US cyber engineer with a passion for security, privacy, and sentient rights.
-  keywords: >
-    Drew, Cybersecurity, InfoSec, Security, Privacy,Researcher, Architect, Engineer, Consultant, Specialist,Analyst, Lab, Laboratory
-rssLimit: 25
+    I'm Drew, a security researcher with a passion for technology, privacy, and sentient rights. Occasionally, you can find me engaging with the security community through social media, publications, and other projects online.
+  keywords: "Drew, Cybersecurity, Cyberlab, InfoSec, Security, Privacy, Researcher, Architect, Engineer, Consultant, Specialist, Analyst, Lab, Laboratory"
+rssLimit: 20
 title: "Drew's Lab"
 theme: "x64"
