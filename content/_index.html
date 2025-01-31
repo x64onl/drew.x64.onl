@@ -13,6 +13,9 @@
       background-blend-mode: soft-light;
       background-size: cover;
     }
+	.accent {
+		color: var(--link-color);
+	}
 	.avatar {
       background-color: var(--font-color);
 	  padding: 2px;
@@ -40,7 +43,7 @@
       margin: 0.25rem auto;
     }
 	.page-footer {
-      color: var(--font-color-dark);
+	  letter-spacing: 1px;
       font-size: 12px;
       margin-top: 2rem;
     }
@@ -84,7 +87,7 @@
 			<a class="button" href="/resume/" title="Resume">Resume</a>
 		</div>
 		<div class="page-footer">
-			<pre class="footer-credit"><code>Made with &hearts; in CO, USA</code></pre>
+			<p>Made with <span class="accent">&hearts;</span> in CO, USA</p>
 			<!-- sponsors -->
 			<p><a href="https://github.com/sponsors/x64onl" title="Sponsor Me on GitHub" target="_blank"><img width="76" height="20" src="https://img.shields.io/github/sponsors/x64onl" alt="Sponsor Me on GitHub"></a></p>
 			<!-- fork me -->

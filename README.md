@@ -1,23 +1,23 @@
 # Drew's Laboratory
-![Just a dude in a hat, standing in front of a massive rock, looking not so very excited to have his picture taken.](https://drew.x64.onl/images/IMG_2604.webp)
+![profile](https://drew.x64.onl/images/IMG_2604.webp)
 
 ## Aloha 🌎 World
 ***Welcome to my lab!***
 
-I'm Drew, a US cyber engineer with a passion for security, privacy, and sentient rights. I spend most of my online time collaborating with cyber citizens across academia, corporate, and government domains. Occasionally, I contribute my thoughts and insights to the community through social media, articles, and  publications like [X64.ONL](https://x64.onl).
-
 ### Socials
-- [LinkedIn](https://www.linkedin.com/in/x64)
 - [Github](https://github.com/x64onl)
-- [Mastodon](https://mas.x64.onl/@drew)
 - [Instagram](https://www.instagram.com/x64.onl)
+- [LinkedIn](https://www.linkedin.com/in/x64)
+- [Reddit](https://mas.x64.onl/@drew)
+- [X](https://x.com/x64onl)
 
 ### Links
-- [Portfolio](https://x64.onl/author/drew/)
-- [Resume](https://drew.x64.onl/resume/)
-- [Credentials](https://www.credly.com/users/x64)
+- [Booking](https://cal.com/x64-drew)
 - [Bookshelf](https://www.goodreads.com/review/list/81903126-drew?shelf=favorites)
-- [Get in touch](mailto:drew@x64.onl?subject=Hello)
+- [Contact](mailto:drew@x64.onl?subject=Hello)
+- [Credentials](https://www.credly.com/users/x64)
+- [Portfolio](https://www.reddit.com/user/X64ONL/)
+- [Resume](https://drew.x64.onl/resume/)
 
 ### Thank You
 - [Inter Font](https://rsms.me/inter/)

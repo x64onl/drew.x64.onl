@@ -8,8 +8,8 @@ params:
     email: "drew@x64.onl"
     name: "Drew"
     url: "https://cyberdrew.onl"
-  description: "I'm Drew, a cyber researcher with a passion for cybernetics, cybersecurity."
-  keywords: "drew, cyber, cybersecurity, privacy"
+  description: "I'm Drew, a security architect and independent researcher of all things cyber."
+  keywords: "cyber, cybernetics, cybersecurity"
 rssLimit: 20
 title: "Drew's Cyber Lab"
 theme: "x64"
