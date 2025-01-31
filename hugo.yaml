@@ -1,4 +1,4 @@
-baseURL: "https://drew.x64.onl"
+baseURL: "https://cyberdrew.onl"
 disableKinds:
 - taxonomy
 - term
@@ -7,10 +7,9 @@ params:
   author:
     email: "drew@x64.onl"
     name: "Drew"
-    url: "https://drew.x64.onl"
-  description: >
-    I'm Drew, a security researcher with a passion for technology, privacy, and sentient rights. Occasionally, you can find me engaging with the security community through social media, publications, and other projects online.
-  keywords: "Drew, Cybersecurity, Cyberlab, InfoSec, Security, Privacy, Researcher, Architect, Engineer, Consultant, Specialist, Analyst, Lab, Laboratory"
+    url: "https://cyberdrew.onl"
+  description: "I'm Drew, a cyber researcher with a passion for cybernetics, cybersecurity."
+  keywords: "drew, cyber, cybersecurity, privacy"
 rssLimit: 20
-title: "Drew's Lab"
+title: "Drew's Cyber Lab"
 theme: "x64"
