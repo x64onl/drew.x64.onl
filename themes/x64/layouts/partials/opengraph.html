@@ -1,4 +1,11 @@
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
+<!-- meta property="og:image" content="https://opengraph.b-cdn.net/production/images/bc4ed9e0-2cef-46d7-920b-c62a608e3c0a.png?token=PrsId-woDuuCUj-KkY6jejHhmWp3hHTVT2r7IAHAvIQ&height=673&width=1200&expires=33275051342" -->
+<meta name="twitter:card" content="summary_large_image">
+<!-- meta property="twitter:domain" content="cyberdrew.onl" -->
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<!-- meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/bc4ed9e0-2cef-46d7-920b-c62a608e3c0a.png?token=PrsId-woDuuCUj-KkY6jejHhmWp3hHTVT2r7IAHAvIQ&height=673&width=1200&expires=33275051342" -->
