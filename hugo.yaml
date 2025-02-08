@@ -5,9 +5,9 @@ params:
     email: "drew@x64.onl"
     name: "Drew"
     url: "https://cyberdrew.onl"
-  description: "I'm Drew, a security architect and independent researcher of all things cyber."
-  keywords: "cyber, tech, programming, web development, philosophy"
-rssLimit: 20
+  description: "Aloha, World! I'm Drew, Founding Cyber Researcher at X64.ONL: The Indie Cyber Publication."
+  keywords: "tech, cyber, security, philosophy, ethics, philanthropy"
+rssLimit: 25
 title: "Cyber Drew"
 theme: "x64"
 summaryLength: 35
