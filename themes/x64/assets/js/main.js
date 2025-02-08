@@ -6,4 +6,4 @@ Array.from(document.querySelectorAll("a"))
   .forEach(
     (a) =>
       a.setAttribute("target", "_blank") && a.setAttribute("rel", "external")
-  );
+);

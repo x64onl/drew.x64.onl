@@ -1,7 +1,4 @@
 baseURL: "https://cyberdrew.onl"
-disableKinds:
-- taxonomy
-- term
 languageCode: "en-us"
 params:
   author:
@@ -9,7 +6,8 @@ params:
     name: "Drew"
     url: "https://cyberdrew.onl"
   description: "I'm Drew, a security architect and independent researcher of all things cyber."
-  keywords: "cyber, cybernetics, cybersecurity"
+  keywords: "cyber, tech, programming, web development, philosophy"
 rssLimit: 20
-title: "Drew's Cyber Lab"
+title: "Cyber Drew"
 theme: "x64"
+summaryLength: 35
