@@ -1,12 +1,16 @@
 ---
 title: Aloha, World!
+slug: aloha
 date: 2025-02-08T00:00:00.000Z
 draft: true
 tags:
-    - POC
+    - adventure
+    - cyber
+    - tech
 categories:
     - Blog
 keywords: []
+description: ""
 ---
 
 This is a space where I discuss a variety of topics, from technology and cybersecurity to personal development and hobbies. I hope you find something here that resonates with you or even gets you inspired about an adventure of your own!

@@ -180,9 +180,15 @@ th:first-child {
   margin: 2rem 0;
 }
 
+.page .title {
+  margin: 2rem 0;
+}
+
 .terms {
-  padding: 1rem 0;
+  margin: 3rem 0 0 0;
+  padding: 2rem 0 0 0;
   list-style: none;
+  border-top: 1px solid var(--font-color-bright-25);
 }
 
 .terms ul {
