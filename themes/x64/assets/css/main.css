@@ -166,7 +166,7 @@ th:first-child {
 
 #earth {
   display: inline-block;
-  background: url(../images/earth.gif) no-repeat center;
+  background: url(/images/site/earth.gif) no-repeat center;
   margin: 0 .5rem;
   height: 32px;
   width: 32px;

@@ -1,7 +1,9 @@
 ---
 title: Resume
-date: 2025-01-12T00:00:00-07:00
+date: 2025-01-01T07:00:00.000Z
 draft: false
+categories:
+  - Pages
 ---
 
 I'm a security researcher with a passion for technology, privacy, and sentient rights. I can usually be found engaging with the security community via [social media](https://www.linkedin.com/in/dcyfr), [publications](https://x64.onl/author/drew), and [other projects](https://cyberdrew.onl).

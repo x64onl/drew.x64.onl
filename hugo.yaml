@@ -10,4 +10,4 @@ params:
 rssLimit: 25
 title: "Cyber Drew"
 theme: "x64"
-summaryLength: 35
+summaryLength: 1
