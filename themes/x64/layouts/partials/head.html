@@ -1,13 +1,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- seo -->
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s — %s" .Title site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-{{ partial "opengraph.html" . }}
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>">
+
+<!-- feeds -->
 {{ with .OutputFormats.Get "rss" -}}{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}{{ end }}
+
+<!-- opengraph -->
+{{ partial "opengraph.html" . }}
+
+<!-- internal styles -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>">
 {{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}
+
+<!-- external styles -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<!-- internal scripts -->
+{{ partialCached "head/js.html" . }}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="82f57bba-ce4d-4db7-bd04-b8700b73b7f1"></script>

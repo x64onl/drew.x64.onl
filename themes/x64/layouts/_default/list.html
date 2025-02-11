@@ -1,8 +1,13 @@
 {{ define "main" }}
-  <h1 class="list">{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2 class="list-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  <div class="list">
+    <h1 class="list-title">{{ .Title }}</h1>
+    {{ .Content }}
+    {{ range .Pages }}
+    <div class="list-item">
+      <h2 class="list-item-title truncate"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h3 class="list-item-meta">{{ partial "meta.html" . }}</h3>
+      {{ if .Description }}<p>{{ .Description }}</p>{{ else }}{{ .Summary }}{{ end }}
+    </div>
+    {{ end }}
+  </div>
 {{ end }}

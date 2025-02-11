@@ -2,12 +2,12 @@ baseURL: "https://cyberdrew.onl"
 languageCode: "en-us"
 params:
   author:
-    email: "drew@x64.onl"
     name: "Drew"
+    email: "drew@x64.onl"
     url: "https://cyberdrew.onl"
-  description: "Aloha, World! I'm Drew, Founding Cyber Researcher at X64.ONL: The Indie Cyber Publication."
+  description: "Aloha World! I'm Drew, security architect and independent researcher. Welcome to my lab, a place where I tinker, explore, and reflect."
   keywords: "tech, cyber, security, philosophy, ethics, philanthropy"
 rssLimit: 25
-title: "Cyber Drew"
+title: "Drew's Lab"
 theme: "x64"
 summaryLength: 1
