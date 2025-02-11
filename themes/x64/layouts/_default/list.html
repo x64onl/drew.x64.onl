@@ -6,7 +6,9 @@
     <div class="list-item">
       <h2 class="list-item-title truncate"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       <h3 class="list-item-meta">{{ partial "meta.html" . }}</h3>
-      <p class="list-item-description">{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}</p>
+      <p class="list-item-description">
+        {{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ if .Truncated }} <a href="{{ .RelPermalink }}">Read more…</a>{{ end }}{{ end }}
+      </p>
     </div>
     {{ end }}
   </div>

@@ -1,5 +1,6 @@
 :root {
   --accent-color: #2bb673;
+  --rss-color: #F26522;
   --shadow: #0e0e0e99;
   --background-color: #101010;
   --background-soft-light: #00000080;
@@ -32,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-a:is([href^="/links/"]):not([href="/links/"])::after,
+a:is([href^="/links/"]):not([href="/links/"],[href="/links/index.xml"])::after,
 a:not([href^="/"], [href^="#"], [href^="https://drew.x64.onl"], .button, .social-links a, .page-footer a)::after {
   content: " \2197";
   font-weight: bolder;
@@ -238,4 +239,8 @@ table {
   font-size: 0.8rem;
   font-weight: normal;
   font-style: italic;
+}
+
+.style-rss {
+  color: var(--rss-color);
 }
