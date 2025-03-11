@@ -26,11 +26,23 @@
 	    display: none;
 	}
     body {
-        background: var(--background-color) url(/images/site/background.webp) no-repeat fixed center center;
+        background: #050707;
+    }
+    #splash-page {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--background-soft-light) url(/images/site/background.webp) no-repeat fixed center center;
         background-blend-mode:soft-light;
         background-size: cover;
-        width: 480px;
+    }
+    .page-wrapper {
+        min-width: 438px;
+        max-width: 480px;
         padding: 3rem;
+        margin: 0 auto;
     }
     .profile {
         margin: 1rem 0;
