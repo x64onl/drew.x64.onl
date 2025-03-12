@@ -18,17 +18,24 @@
         padding: 0;
     }
     body {
-        background: var(--font-color-dark) url(/images/site/background.webp) fixed center center;
-        background-blend-mode:soft-light;
+        background-color: var(--background-color);
+    }
+    #splash-page {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        background: #000000AA url(/images/site/background.webp) fixed center center;
+        background-blend-mode: overlay;
         background-size: cover;
-        min-width: var(--min-width);
     }
     header,
     footer {
         display: none;
     }
     .profile {
-        margin: 4rem 0;
+        margin: 5rem 0 3rem 0;
     }
     .profile .avatar {
         background-color: var(--font-color);

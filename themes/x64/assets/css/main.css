@@ -59,10 +59,10 @@
   width: 100%;
   border-radius: 8px;
   background: linear-gradient(to right,
-      var(--font-color-dark-25) 0%,
-      var(--font-color-dark) 25%,
-      var(--font-color-dark) 75%,
-      var(--font-color-dark-25) 100%);
+      var(--font-color-dark) 0%,
+      var(--font-color-dark-25) 12%,
+      var(--font-color-dark-25) 88%,
+      var(--font-color-dark) 100%);
 }
 
 .front {
