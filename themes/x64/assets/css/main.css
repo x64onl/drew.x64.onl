@@ -1,22 +1,20 @@
 :root {
-  --accent-color: #ff0055;
+  --font-family: "Inter", system-ui, sans-serif;
+  --font-family-monospace: "DM Mono", monospace;
+  --max-width: 768px;
+  --min-width: 400px;
+  --site-spacing: 2.5rem;
+  --shadow: #000000AA;
+  --background-color: #010101;
+  --background-soft-light: #000003;
   --rss-color: #F26522;
-  --shadow: #0e0e0e99;
-  --background-color: #101010;
-  --background-soft-light: #000000cc;
-  --button-color: #29323c;
+  --accent-color: #ff0055;
+  --link-color: var(--accent-color);
   --font-color: #e0e0e0;
   --font-color-bright: #fafafa;
   --font-color-bright-25: #fafafa25;
   --font-color-dark: #0e0e0e;
   --font-color-dark-25: #0e0e0e25;
-  --font-family: "Inter", system-ui, sans-serif;
-  --font-family-monospace: "DM Mono", monospace;
-  --site-spacing: 3rem;
-  --inner-shadow: #fafafa99;
-  --link-color: var(--accent-color);
-  --max-width: 768px;
-  --min-width: 400px;
 }
 
 /* reset style */
@@ -34,7 +32,7 @@
   border: none;
   cursor: pointer;
   outline-offset: 4px;
-  outline-color: deeppink;
+  outline-color: var(--accent-color);
   transition: filter 250ms;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -61,17 +59,17 @@
   width: 100%;
   border-radius: 8px;
   background: linear-gradient(to right,
-      var(--background-color) 0%,
-      var(--background-soft-light) 8%,
-      var(--background-soft-light) 92%,
-      var(--background-color) 100%);
+      var(--font-color-dark-25) 0%,
+      var(--font-color-dark) 25%,
+      var(--font-color-dark) 75%,
+      var(--font-color-dark-25) 100%);
 }
 
 .front {
   display: block;
   position: relative;
   border-radius: 8px;
-  background: var(--background-color);
+  background: var(--background-soft-light);
   padding: 16px 32px;
   color: var(--font-color);
   font-weight: 600;
