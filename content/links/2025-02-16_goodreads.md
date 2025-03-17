@@ -1,5 +1,5 @@
 ---
-title: "My favorites on Goodreads"
+title: "My favorite books"
 description: "Check out my library on Goodreads."
 date: 2025-02-16T07:00:00.000Z
 draft: false

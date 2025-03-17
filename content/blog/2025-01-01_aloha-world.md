@@ -1,6 +1,6 @@
 ---
 date: 2025-02-10T00:00:00.000Z
-title: 🌎 Aloha World
+title: Aloha World
 description: I’m Drew, security architect and independent researcher. Welcome to my lab! This space is where I experiment, learn, reflect, and inspire others.
 draft: false
 slug: aloha-world

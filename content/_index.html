@@ -2,12 +2,14 @@
     @keyframes fadeIn {
         0% {
             opacity: 0;
-            transform: translateY(0px) scale(0.95);
         }
         100% {
             opacity: 1;
-            transform: translateY(0px) scale(1);
         }
+    }
+    .fade-in {
+        opacity: 1;
+        animation: fadeIn 0.65s 1 ease-in;
     }
     #spotify-player {
         position: relative;
@@ -16,9 +18,6 @@
         border-radius: 12px;
         margin: 1rem 0 1.5rem 0;
         padding: 0;
-    }
-    body {
-        background-color: var(--background-color);
     }
     #splash-page {
         position: absolute;
@@ -30,6 +29,9 @@
         background-blend-mode: overlay;
         background-size: cover;
     }
+    body {
+        background-color: var(--background-color);
+    }
     header,
     footer {
         display: none;
@@ -39,26 +41,24 @@
     }
     .profile .avatar {
         background-color: var(--font-color);
-        padding: 0.25rem;
+        padding: 3px;
         border-radius: 50%;
-        width: 125px;
-        height: 125px;
+        width: 128px;
+        height: 128px;
     }
     .profile .profile-title {
-        font-size: 2em;
-        margin: 2rem 0 0.75rem 0;
+        font-size: 2rem;
+        margin: 2rem 0 0.5rem 0;
     }
     .profile .profile-description {
         font-style: italic;
-        margin: 1rem auto;
+        margin: 0rem auto;
     }
     .page-wrapper {
         margin: 0 auto;
-        max-width: 380px;
-    }
-    .fade-in {
-        opacity: 1;
-        animation: fadeIn 400ms 1 ease-in;
+        padding: 1rem;
+        min-width: 360px;
+        max-width: 414px;
     }
     .social-links {
         margin: 3rem 0 1rem 0;
@@ -68,8 +68,14 @@
         font-size: 14px;
         padding: 2rem 0;
     }
+    @media (max-width: 360px) {
+        .profile .avatar {
+            width: 125px;
+            height: 125px;
+        }
+    }
 </style>
-<div id="splash-page">
+<div id="splash-page" class="fade-in">
     <div class="page-wrapper center">
         <!-- page header -->
         <div class="page-header">
@@ -96,7 +102,7 @@
                 <a class="icon" href="https://x.com/drewcyfr" title="Inspire on X" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="42" height="42" fill="currentColor"><path d="M17.6874 3.0625L12.6907 8.77425L8.37045 3.0625H2.11328L9.58961 12.8387L2.50378 20.9375H5.53795L11.0068 14.6886L15.7863 20.9375H21.8885L14.095 10.6342L20.7198 3.0625H17.6874ZM16.6232 19.1225L5.65436 4.78217H7.45745L18.3034 19.1225H16.6232Z"></path></svg></a>
             </div>
             <!-- spotify -->
-            <div id="spotify-player" class="fade-in"><iframe src="https://open.spotify.com/embed/playlist/5h6MsY261X9btDWlJjB2hb?utm_source=oembed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;" loading="lazy"></iframe></div>
+            <div id="spotify-player"><iframe src="https://open.spotify.com/embed/playlist/5h6MsY261X9btDWlJjB2hb?utm_source=oembed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;" loading="lazy"></iframe></div>
             <!-- blog -->
             <a class="button" href="/blog" title="Blog"><button class="pushable"><span class="shadow"></span><span class="edge"></span><span class="front">Blog</span></button></a>
             <!-- articles -->
