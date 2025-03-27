@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: .well-known/robots.txt
+---
 User-agent: *
 Allow: /
 
